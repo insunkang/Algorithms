@@ -17,7 +17,7 @@
 
 | 이름  | 문제                                                         | 바로가기                                           | 비고 |
 | ----- | ------------------------------------------------------------ | -------------------------------------------------- | ---- |
-| 17686 | [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686?language=java) | [바로가기](./src/programmers/fileNameSorting.java) |      |
+| 17686 | [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686?language=java) | [바로가기](./src/programmers/FileNameSorting.java) |      |
 |       |                                                              |                                                    |      |
 |       |                                                              |                                                    |      |
 |       |                                                              |                                                    |      |
