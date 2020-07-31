@@ -13,14 +13,14 @@
 |       |                                                         |                                               |      |
 |       |                                                         |                                               |      |
 
-# Programmers
+## Programmers
 
 | 이름  | 문제                                                         | 바로가기                                              | 비고 |
 | ----- | ------------------------------------------------------------ | ----------------------------------------------------- | ---- |
 | 17686 | [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686?language=java) | [바로가기](./src/programmers/FileNameSorting.java)    |      |
 | 42583 | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/17686?language=java) | [바로가기](./src/programmers/TruckPassingBridge.java) |      |
-|       |                                                              |                                                       |      |
-|       |                                                              |                                                       |      |
+| 1835  | [단체 사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [바로가기](./src/programmers/TakeGroupPhoto.java)     |      |
+| 17679 | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | [바로가기](./src/programmers/Friends4Block.java)      |      |
 |       |                                                              |                                                       |      |
 |       |                                                              |                                                       |      |
 |       |                                                              |                                                       |      |
