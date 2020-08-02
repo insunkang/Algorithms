@@ -9,7 +9,7 @@
 | 2953  | [요리사](https://www.acmicpc.net/problem/2953)          | [바로가기](./src/baekjoon/cook.java)          |      |
 | 3052  | [나머지](https://www.acmicpc.net/problem/3052)          | [바로가기](./src/baekjoon/good2.java)         |      |
 | 14503 | [로봇 청소기](https://www.acmicpc.net/problem/14503)    | [바로가기](./src/baekjoon/Robot.java)         |      |
-|       |                                                         |                                               |      |
+| 14502 | [연구소](https://www.acmicpc.net/problem/14502)         | [바로가기](./src/baekjoon/Loboratory.java)    |      |
 |       |                                                         |                                               |      |
 |       |                                                         |                                               |      |
 
@@ -21,7 +21,7 @@
 | 42583 | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/17686?language=java) | [바로가기](./src/programmers/TruckPassingBridge.java) |      |
 | 1835  | [단체 사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [바로가기](./src/programmers/TakeGroupPhoto.java)     |      |
 | 17679 | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | [바로가기](./src/programmers/Friends4Block.java)      |      |
-|       |                                                              |                                                       |      |
+| 62048 | [멀쩡한사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [바로가기](./src/programmers/CleanSquare.java)        |      |
 |       |                                                              |                                                       |      |
 |       |                                                              |                                                       |      |
 |       |                                                              |                                                       |      |
