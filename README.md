@@ -22,7 +22,8 @@
 | 1835  | [단체 사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [바로가기](./src/programmers/TakeGroupPhoto.java)     |      |
 | 17679 | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | [바로가기](./src/programmers/Friends4Block.java)      |      |
 | 62048 | [멀쩡한사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [바로가기](./src/programmers/CleanSquare.java)        |      |
-|       |                                                              |                                                       |      |
+| 17687 | [N진수게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | [바로가기](./src/programmers/Nnumberize.java)         |      |
+| 42860 | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [바로가기](./src/programmers/Joystick.java)           |      |
 |       |                                                              |                                                       |      |
 |       |                                                              |                                                       |      |
 
