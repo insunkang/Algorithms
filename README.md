@@ -15,15 +15,15 @@
 
 ## Programmers
 
-| 이름  | 문제                                                         | 바로가기                                              | 비고 |
-| ----- | ------------------------------------------------------------ | ----------------------------------------------------- | ---- |
-| 17686 | [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686?language=java) | [바로가기](./src/programmers/FileNameSorting.java)    |      |
-| 42583 | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/17686?language=java) | [바로가기](./src/programmers/TruckPassingBridge.java) |      |
-| 1835  | [단체 사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [바로가기](./src/programmers/TakeGroupPhoto.java)     |      |
-| 17679 | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | [바로가기](./src/programmers/Friends4Block.java)      |      |
-| 62048 | [멀쩡한사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [바로가기](./src/programmers/CleanSquare.java)        |      |
-| 17687 | [N진수게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | [바로가기](./src/programmers/Nnumberize.java)         |      |
-| 42860 | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [바로가기](./src/programmers/Joystick.java)           |      |
-|       |                                                              |                                                       |      |
-|       |                                                              |                                                       |      |
+| 이름  | 문제                                                         | 바로가기                                              | 비고        |
+| ----- | ------------------------------------------------------------ | ----------------------------------------------------- | ----------- |
+| 17686 | [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686?language=java) | [바로가기](./src/programmers/FileNameSorting.java)    | Progressing |
+| 42583 | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/17686?language=java) | [바로가기](./src/programmers/TruckPassingBridge.java) | Done        |
+| 1835  | [단체 사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [바로가기](./src/programmers/TakeGroupPhoto.java)     | Progressing |
+| 17679 | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | [바로가기](./src/programmers/Friends4Block.java)      | Done        |
+| 62048 | [멀쩡한사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [바로가기](./src/programmers/CleanSquare.java)        | Done        |
+| 17687 | [N진수게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | [바로가기](./src/programmers/Nnumberize.java)         | Done        |
+| 42860 | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [바로가기](./src/programmers/Joystick.java)           | Progressing |
+| 60058 | [괄호변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [바로가기](./src/programmers/ParenthesisConvert.java) |             |
+|       |                                                              |                                                       |             |
 
