@@ -24,6 +24,6 @@
 | 62048 | [멀쩡한사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [바로가기](./src/programmers/CleanSquare.java)        | Done        |
 | 17687 | [N진수게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | [바로가기](./src/programmers/Nnumberize.java)         | Done        |
 | 42860 | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [바로가기](./src/programmers/Joystick.java)           | Progressing |
-| 60058 | [괄호변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [바로가기](./src/programmers/ParenthesisConvert.java) |             |
+| 60058 | [괄호변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [바로가기](./src/programmers/ParenthesisConvert.java) | Progressing |
 |       |                                                              |                                                       |             |
 
