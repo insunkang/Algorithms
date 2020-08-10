@@ -11,6 +11,6 @@ public class ADeveloperStory {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String input = br.readLine();
 		
-		
+	}
 
 }
