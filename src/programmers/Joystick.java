@@ -56,7 +56,7 @@ public class Joystick {
 	
 
 	public static void main(String[] args) {
-		String name = "AAABAAAAB";
+		String name = "BBAABAAAA";
 		int answer =0;
 		
 		int number = name.length();
