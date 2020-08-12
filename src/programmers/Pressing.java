@@ -72,41 +72,11 @@ public class Pressing {
 				min=result.length();
 			}
 			
-			
-			
-			
-			
-			
-			
-//			HashMap<String, Integer> output = new HashMap<String, Integer>();
-//			ArrayList<String> test = new ArrayList<String>();
-//			for (int i = 0; i < a.length; i++) {
-//				if(output.containsKey(a[i])) {
-//					output.put(a[i], output.get(a[i])+1);
-//				}else {
-//					output.put(a[i], 1);
-//					test.add(a[i]);
-//				}
-//			}
-//			
-//			int compare=0;
-//			
-//			for (int i = 0; i < test.size(); i++) {
-//				if(output.get(test.get(i))==1){
-//					compare+=test.get(i).length();
-//				}else {
-//					compare+=test.get(i).length();
-//					compare+=Integer.toString(output.get(test.get(i))).length();
-//				}
-//			}
-//			if(compare<min) {
-//				min=compare;
-//			}
+		
+
 			check++;
 		}
-//		for (int i = 0; i < a.length; i++) {
-//			System.out.println(a[i]);
-//		}
+
 		System.out.println(min);
 
 	}
