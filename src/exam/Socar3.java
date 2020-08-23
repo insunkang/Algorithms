@@ -8,6 +8,7 @@ public class Socar3 {
 		if (money>max) {
 			max=money;
 		}
+		int k =0 ;
 		int l = 0;
 		int o = 0;
 		for (int i = 0; i < b.length; i++) {
