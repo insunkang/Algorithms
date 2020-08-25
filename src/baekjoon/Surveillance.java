@@ -37,7 +37,7 @@ public class Surveillance {
 			if (min>result) {
 				min=result;
 			}
-			return result;
+//			return result;
 		}
 	}
 	
