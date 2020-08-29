@@ -29,6 +29,6 @@
 | 12980 | [점프와순간이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | [바로가기](./src/programmers/JumpAndTeleport.java)    | Done        |
 | 12985 | [예상대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) | [바로가기](./src/programmers/TourmentTree.java)       | Done        |
 | 60057 | [압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [바로가기](./src/programmers/Pressing.java)           | Done        |
-| 42842 |                                                              |                                                       |             |
-|       |                                                              |                                                       |             |
+| 42842 | [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) | [바로가기](./src/programmers/Carpet.java)             | Done        |
+| 12981 | [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) | [바로가기](./src/programmers/WordChain.java)          | Done        |
 
