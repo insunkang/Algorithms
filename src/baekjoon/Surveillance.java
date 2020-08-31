@@ -18,11 +18,11 @@ public class Surveillance {
 		return result;
 	}
 	
-	public static void surveil(int[][] target,int[][] origin, int m, int n, Queue<int[]> key, Queue<Integer> value) {		
+	public static void surveil(int[][] target,int[][] origin, int m, int n, Queue<int[]> key, Queue<Integer> value,int i) {		
 		int[] left = {-1,0,1,0};
 		int[] right = {0,1,0,-1};
 		
-		while(!key.isEmpty()) {		 	
+		while(i<key.size()) {		 	
 			int[] k = key.poll();
 			int v = value.poll();
 			if (v==1) {
@@ -53,7 +53,7 @@ public class Surveillance {
 					if (check(target, m, n)<result) {
 						result = check(target, m, n);
 					}
-					surveil(target,origin,m,n,key,value);
+					surveil(target,origin,m,n,key,value,i);
 					
 					for (int l = 0; l < m; l++) {
 						for (int l2 = 0; l2 < n; l2++) {
@@ -95,7 +95,7 @@ public class Surveillance {
 						result = check(target, m, n);
 					}
 					
-					surveil(target,origin,m,n,key,value);
+					surveil(target,origin,m,n,key,value,i);
 					for (int l = 0; l < m; l++) {
 						for (int l2 = 0; l2 < n; l2++) {
 							target[l][l2]=origin[l][l2];
@@ -140,7 +140,7 @@ public class Surveillance {
 						result = check(target, m, n);
 					}
 					
-					surveil(target,origin,m,n,key,value);
+					surveil(target,origin,m,n,key,value,i);
 					
 					for (int l = 0; l < m; l++) {
 						for (int l2 = 0; l2 < n; l2++) {
@@ -190,7 +190,7 @@ public class Surveillance {
 						result = check(target, m, n);
 					}
 					
-					surveil(target,origin,m,n,key,value);
+					surveil(target,origin,m,n,key,value,i);
 					
 					for (int l = 0; l < m; l++) {
 						for (int l2 = 0; l2 < n; l2++) {
@@ -224,7 +224,7 @@ public class Surveillance {
 				if (check(target, m, n)<result) {
 					result = check(target, m, n);
 				}
-				surveil(target,origin,m,n,key,value);
+				surveil(target,origin,m,n,key,value,i);
 				i++;
 			}
 			
@@ -268,7 +268,7 @@ public class Surveillance {
 //		}
 		
 		
-		surveil(target, origin, m, n, key, value);
+		surveil(target, origin, m, n, key, value,0);
 		
 		
 		System.out.println(result);
