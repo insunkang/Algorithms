@@ -244,6 +244,7 @@ public class Surveillance {
 		int[][] target = new int[m][n];
 		int[][] origin = new int[m][n];
 		result = m*n;
+		
 		Queue<int[]> key = new LinkedList<int[]>();
 		Queue<Integer> value = new LinkedList<Integer>();
 		
