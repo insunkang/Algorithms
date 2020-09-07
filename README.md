@@ -40,10 +40,11 @@
 
 ## Goorm
 
-| 이름  | 문제                                                    | 바로가기                                      | 비고        |
-| ----- | ------------------------------------------------------- | --------------------------------------------- | ----------- |
-|       |                                                              |                                                       |             |
-|       |                                                              |                                                       |             |
-|       |                                                              |                                                       |             |
-|       |                                                              |                                                       |             |
+| 이름  | 문제                                                         | 바로가기                                            | 비고 |
+| ----- | ------------------------------------------------------------ | --------------------------------------------------- | ---- |
+| 43238 | [소수판별](https://level.goorm.io/exam/43238/소수-판별/quiz/1) | [바로가기](./src/goorm/PrimeNumber.java)            | Done |
+| 43219 | [문자열뒤집기](https://level.goorm.io/exam/43219/문자열-뒤집기/quiz/1) | [바로가기](./src/goorm/ReverseString.java)          | Done |
+| 43275 | [완전수](https://level.goorm.io/exam/43275/완전수/quiz/1)    | [바로가기](./src/goorm/PerfectNumber.java)          | Done |
+| 43232 | [약수의합](https://level.goorm.io/exam/43232/약수의-합/quiz/1) | [바로가기](./src/goorm/TotalOfTrivialDivisor.java)  | Done |
+| 43173 | [비트연산기본2](https://level.goorm.io/exam/43173/비트연산-기본-2/quiz/1) | [바로가기](./src/goorm/BasicOfBotwiseOperator.java) | Done |
 
