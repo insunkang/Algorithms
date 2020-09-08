@@ -32,7 +32,7 @@
 | 42842 | [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) | [바로가기](./src/programmers/Carpet.java)             | Done        |
 | 12981 | [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) | [바로가기](./src/programmers/WordChain.java)          | Done        |
 | 17683 | [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683) | [바로가기](./src/programmers/TheSongJustHeard.java)   | Progressing |
-|       |                                                              |                                                       |             |
+| 60063 | [블록이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063) | [바로가기](./src/programmers/MoveBlock.java)          | Progressing |
 |       |                                                              |                                                       |             |
 |       |                                                              |                                                       |             |
 |       |                                                              |                                                       |             |
