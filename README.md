@@ -34,8 +34,8 @@
 | 17683 | [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683) | [바로가기](./src/programmers/TheSongJustHeard.java)   | Progressing |
 | 60063 | [블록이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063) | [바로가기](./src/programmers/MoveBlock.java)          | Progressing |
 | 12904 | [가장 긴 팰린드롬](https://programmers.co.kr/learn/courses/30/lessons/12904) | [바로가기](./src/programmers/Palindrome.java)         | Done        |
-|       |                                                              |                                                       |             |
-|       |                                                              |                                                       |             |
+| 42579 | [베스트 앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [바로가기](./src/programmers/BestAlbum.java)          | Done        |
+| 42627 | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | [바로가기](./src/programmers/DiscController.java)     | Done        |
 
 
 ## Goorm
