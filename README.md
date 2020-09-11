@@ -36,6 +36,11 @@
 | 12904 | [가장 긴 팰린드롬](https://programmers.co.kr/learn/courses/30/lessons/12904) | [바로가기](./src/programmers/Palindrome.java)         | Done        |
 | 42579 | [베스트 앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [바로가기](./src/programmers/BestAlbum.java)          | Done        |
 | 42627 | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | [바로가기](./src/programmers/DiscController.java)     | Done        |
+| 49189 | [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [바로가기](./src/programmers/TheFarthestNode.java)    | Progressing |
+| 17680 | [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | [바로가기](./src/programmers/Cache.java)              | Done        |
+|       |                                                              |                                                       |             |
+|       |                                                              |                                                       |             |
+|       |                                                              |                                                       |             |
 
 
 ## Goorm

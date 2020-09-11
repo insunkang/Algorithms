@@ -14,6 +14,7 @@ public class MoveBlock {
 			return;
 		}
 		
+		
 		System.out.println(check);
 		int[] nextLeft = new int[2];
 		int[] nextRight = new int[2];
