@@ -16,6 +16,7 @@ public class LineFthQ {
 				if (i==3) { //0으로
 					check=0;									
 				}else {
+					
 					check=i+1;
 				}
 			}
@@ -30,15 +31,16 @@ public class LineFthQ {
 //		if (handwall[0]<0||handwall[0]>=maze.length||handwall[1]<0||handwall[1]>=maze.length||maze[handwall[0]][handwall[1]]==1) { //왼손이 1(내부벽), 외부벽 이고
 //			System.out.println(0);
 //			if (handwall[0]+m[check]==-1||handwall[0]+m[check]==maze.length||handwall[1]+n[check]==-1||handwall[1]+n[check]==maze.length||maze[handwall[0]+m[check]][handwall[1]+n[check]]==1) { //손의 다음 경로가 벽일때
-				if (loc[0]+m[check]<0||loc[0]+m[check]>=maze.length||loc[1]+n[check]<0||loc[1]+n[check]>=maze.length||
-						maze[loc[0]+m[check]][loc[1]+n[check]]==1) { //회전할때
-					System.out.println(1);
-					next[0]=presentMN[0]+m[check];
-					next[1]=presentMN[1]+n[check];
-					leftHand(maze,next,loc);
-				}else if(maze[handwall[0]+m[check]][handwall[1]+n[check]]==1&&maze[handwall[0]+m[check]][handwall[1]+n[check]]==1){//손의 다음경로가 1일 때
+//				if (
+//						loc[0]+m[check]<0||loc[0]+m[check]==maze.length||loc[1]+n[check]<0||loc[1]+n[check]==maze.length
+//						||maze[loc[0]+m[check]][loc[1]+n[check]]==1) { //회전할때
+//					
+					
+					
+				if(maze[handwall[0]+m[check]][handwall[1]+n[check]]==0&&maze[loc[0]+m[check]][loc[1]+n[check]]==0){//손의 다음경로가 0일 때
 					
 					System.out.println(4);
+					int a=check;
 					if (check==0) {
 						check=3;
 					}else {
@@ -46,8 +48,8 @@ public class LineFthQ {
 					}
 					next[0]=presentMN[0]+m[check];
 					next[1]=presentMN[1]+n[check];
-					loc[0]=handwall[0]+m[check];
-					loc[1]=handwall[1]+n[check];
+					loc[0]=handwall[0]+m[a];
+					loc[1]=handwall[1]+n[a];
 					leftHand(maze,next,loc);
 					result=result+2;
 				}else if(maze[handwall[0]+m[check]][handwall[1]+n[check]]==1&&maze[loc[0]+m[check]][loc[0]+n[check]]==0){												//회전 안할때
@@ -58,6 +60,11 @@ public class LineFthQ {
 					loc[1]=loc[1]+n[check];
 					result++;
 					leftHand(maze,presentMN,loc);
+				}else {
+					System.out.println(1);
+					next[0]=m[check];
+					next[1]=n[check];
+					leftHand(maze,next,loc);
 				}
 //			}else if(maze[handwall[0]+m[check]][handwall[1]+n[check]]==1){ //다음 경로가 내부벽일때
 //				
@@ -95,7 +102,8 @@ public class LineFthQ {
 		mn[0]=0;
 		mn[1]=0;
 		leftHand(maze,presentMN,mn);
-		System.out.println(result);
+		System.out.println(result+"result");
+		
 	}
 
 }
