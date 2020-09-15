@@ -37,7 +37,7 @@ public class LineFthQ {
 //					
 					
 					
-				if(maze[handwall[0]+m[check]][handwall[1]+n[check]]==0&&maze[loc[0]+m[check]][loc[1]+n[check]]==0){//손의 다음경로가 0일 때
+				if(maze[handwall[0]+m[check]][handwall[1]+n[check]]==0&&maze[loc[0]+m[check]][loc[1]+n[check]]==0){//손의 다음경로가 0일 때(회전)
 					
 					System.out.println(4);
 					int a=check;
