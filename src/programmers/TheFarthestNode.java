@@ -1,5 +1,7 @@
 package programmers;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -15,8 +17,8 @@ public class TheFarthestNode {
 	
 	}
 	static int last;
-	public static void cal(int[][] edge, int endnode, boolean[] check, int presentNode, int result) {
-		
+	public static ArrayList<Integer> cal(int[][] edge, int endnode, boolean[] check, int presentNode, int result) {
+		ArrayList<Integer> answer = new ArrayList<Integer>();
 		Queue<Node> q = new LinkedList<Node>(); 
 		
 		for (int i = 0; i < edge.length; i++) {
@@ -39,11 +41,11 @@ public class TheFarthestNode {
 				
 				
 //				System.out.println(endnode+"  "+nextNode.x);
-				if (nextNode.x==endnode) {
-					last = nextNode.depth;
+//				if (nextNode.x==endnode) {
+//					last = nextNode.depth;
 //					System.out.println("endnode"+endnode+"depth"+last);
-					return;
-				}
+//					return;
+//				}
 		
 					
 					for (int i = 0; i < edge.length; i++) {
@@ -63,6 +65,7 @@ public class TheFarthestNode {
 		
 				
 			}
+			return answer;
 		
 		
 		
@@ -77,27 +80,73 @@ public class TheFarthestNode {
 		int max = 0;
 		int answer = 0;
 		
+//		
+//		for (int i = 2; i <= n; i++) {
+//			boolean[] check = new boolean[n];
+////			Arrays.fill(check, false);
+//			
+//			check[0]=true;
+//			
+//			last=1;
+//			
+//			cal(edge,i,check,1,1);
+//			
+//			if (last>max) {
+//				max = last;
+//				answer = 1;
+//				
+//			}else if (last==max) {
+//				answer=answer+1;
+////				System.out.println(i+"i");
+//			}
+//		}
+//		System.out.println(max+"max");
+		boolean[] check = new boolean[n+1];
+		ArrayList<ArrayList<Integer>> target = new ArrayList<ArrayList<Integer>>();
+		int[] result = new int[n+1];
+		for (int i = 0; i < n+1; i++) {
+			target.add(new ArrayList<Integer>());
+		}
 		
-		for (int i = 2; i <= n; i++) {
-			boolean[] check = new boolean[n];
-//			Arrays.fill(check, false);
+		for (int i = 0; i < edge.length; i++) {
+			int a = edge[i][0];
+			int b = edge[i][1];
 			
-			check[0]=true;
+			target.get(a).add(b);
+			target.get(b).add(a);
 			
-			last=1;
+		}
+		
+		Queue<Integer> q = new LinkedList<Integer>();
+		
+		q.add(1);
+		
+		check[0]=check[1]=true;
+		int now ;
+		while(!q.isEmpty()) {
+			now = q.poll();
 			
-			cal(edge,i,check,1,1);
+			for(int v:target.get(now)) {
+				if (check[v]==false) {
+					result[v]=result[now]+1;
+					check[v]=true;
+					q.add(v);
+				}
+			}
 			
-			if (last>max) {
-				max = last;
-				answer = 1;
-				
-			}else if (last==max) {
-				answer=answer+1;
-//				System.out.println(i+"i");
+			
+		}
+		System.out.println(Arrays.toString(result));
+		for (int i = 0; i < result.length; i++) {
+			if (max<result[i]) {
+				max=result[i];
+				answer =1;
+			}else if (max==result[i]) {
+				answer++;
 			}
 		}
-//		System.out.println(max+"max");
+		
+		System.out.println(max);
 		System.out.println(answer+"answer");
 	}
 
