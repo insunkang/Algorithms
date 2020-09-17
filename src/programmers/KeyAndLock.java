@@ -24,7 +24,21 @@ public class KeyAndLock {
 			}
 		}
 		
-		int[][] target = new int[][];
+		
+		int k =key.length-1;
+		int[][] target = new int[lock.length+k*2][lock.length+k*2];
+		
+		for (int i = 0; i < target.length; i++) {
+			for (int j = 0; j < target.length; j++) {
+				if (i>=k&&i<target.length+k&&j>=k&&j<target.length+k) {
+					target[i][j]=0;
+				}else {
+					target[i][j]=1;
+				}
+			}
+		}
+		
+		
 		
 		
 	}
