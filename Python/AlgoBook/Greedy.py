@@ -155,46 +155,68 @@ import time
 #
 #
 # print(result)
-from collections import deque
-m,n = map(int,input().split())
+# from collections import deque
+# m,n = map(int,input().split())
 
 
-dx = [-1, 0, 1, 0]
-dy = [0, -1, 0, 1]
+# dx = [-1, 0, 1, 0]
+# dy = [0, -1, 0, 1]
 
-check = [[0]*n for _ in range(m)]
-target = []
+# check = [[0]*n for _ in range(m)]
+# target = []
 
-for _ in range(m):
-    target.append(list(map(int,input())))
-print(target)
-def bfs( i, j):
-    q = deque()
-    q.append((i, j))
+# for _ in range(m):
+#     target.append(list(map(int,input())))
+# print(target)
+# def bfs( i, j):
+#     q = deque()
+#     q.append((i, j))
 
-    result = 1
-    while q:
-        o = 0
-        a, b = q.popleft()
-        check[a][b] = 1
-        print(q)
-        print(a,b)
-        if a == m-1 and b == n-1:
-            result-=len(q)
-            print(result)
-            return
-        else:
+#     result = 1
+#     while q:
+#         o = 0
+#         a, b = q.popleft()
+#         check[a][b] = 1
+#         print(q)
+#         print(a,b)
+#         if a == m-1 and b == n-1:
+#             result-=len(q)
+#             print(result)
+#             return
+#         else:
 
-            result += 1
-            for k in range(4):
-                if m > a+dx[k] >= 0 and n > b+dy[k] >= 0 and target[a+dx[k]][b+dy[k]] == 1 and check[a+dx[k]][b+dy[k]] == 0:
-                    q.append((a+dx[k],b+dy[k]))
-                else:
-                    o+=1
-            if o==4:
-                 result-=1
+#             for k in range(4):
+#                 if m > a+dx[k] >= 0 and n > b+dy[k] >= 0 and target[a+dx[k]][b+dy[k]] == 1 and check[a+dx[k]][b+dy[k]] == 0:
+#                     q.append((a+dx[k],b+dy[k]))
+#                 else:
+#                     o+=1
+#             if o==4:
+#                  result-=1
+#             else:
+#                result += 1
 
 
 
-check[0][0] = 1
-bfs(0,0)
+
+# check[0][0] = 1
+# bfs(0,0)
+s = []
+for i in range(1,101):
+    s.append(i)
+x=100
+low =1
+high =100
+location = 0
+while low<=high and location ==0 :
+    print("loof")
+    
+    mid=(low+high)//2
+    print(location, mid)
+    if x==s[mid]:
+        location=mid
+    elif x<s[mid]:
+        high =mid-1
+    else:
+        low = mid+1
+
+
