@@ -14,8 +14,8 @@
       <file leaf-file-name="CodeUp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CodeUp/CodeUp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6099">
-              <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
+            <state relative-caret-position="3401">
+              <caret line="179" selection-start-line="179" selection-end-line="179" />
               <folding>
                 <marker date="1600594479520" expanded="true" signature="2498:2578" ph="..." />
               </folding>
@@ -23,14 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Greedy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Greedy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlgoBook/Greedy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="183" column="25" lean-forward="true" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="232">
+              <caret line="143" column="106" lean-forward="true" selection-start-line="143" selection-start-column="9" selection-end-line="143" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NTech.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exam/NTech.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="61" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -50,12 +56,13 @@
         <option value="$PROJECT_DIR$/CodeUp.py" />
         <option value="$PROJECT_DIR$/CodeUp/CodeUp.py" />
         <option value="$PROJECT_DIR$/AlgoBook/Greedy.py" />
+        <option value="$PROJECT_DIR$/exam/NTech.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="553" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="360" />
+    <option name="y" value="11" />
     <option name="width" value="1316" />
     <option name="height" value="1047" />
   </component>
@@ -64,6 +71,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,11 +89,15 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="CodeUp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -104,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Greedy">
+  <component name="RunManager" selected="Python.NTech">
     <configuration name="CodeUp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,12 +153,32 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="NTech" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam/NTech.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.CodeUp" />
       <item itemvalue="Python.Greedy" />
+      <item itemvalue="Python.NTech" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NTech" />
         <item itemvalue="Python.Greedy" />
         <item itemvalue="Python.CodeUp" />
       </list>
@@ -166,7 +198,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="553" y="23" width="1316" height="1047" extended-state="0" />
+    <frame x="360" y="11" width="1316" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12206573" />
@@ -193,10 +225,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CodeUp/CodeUp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3401">
+          <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
+          <folding>
+            <marker date="1600594479520" expanded="true" signature="2498:2578" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlgoBook/Greedy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="183" column="25" lean-forward="true" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CodeUp/CodeUp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11381">
@@ -211,9 +260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
           <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -256,8 +302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CodeUp/CodeUp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6099">
-          <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
+        <state relative-caret-position="3401">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
           <folding>
             <marker date="1600594479520" expanded="true" signature="2498:2578" ph="..." />
           </folding>
@@ -266,11 +312,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AlgoBook/Greedy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="183" column="25" lean-forward="true" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="232">
+          <caret line="143" column="106" lean-forward="true" selection-start-line="143" selection-start-column="9" selection-end-line="143" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/NTech.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="61" selection-end-column="11" />
         </state>
       </provider>
     </entry>
