@@ -11,11 +11,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinarySearch.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlgoBook/BinarySearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="399">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11st.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exam/11st.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -39,12 +48,13 @@
         <option value="$PROJECT_DIR$/exam/naver1.py" />
         <option value="$PROJECT_DIR$/exam/naver.py" />
         <option value="$PROJECT_DIR$/AlgoBook/BinarySearch.py" />
+        <option value="$PROJECT_DIR$/exam/11st.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="440" />
-    <option name="width" value="1487" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -52,6 +62,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,7 +89,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -97,7 +107,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BinarySearch">
+  <component name="RunManager" selected="Python.11st">
+    <configuration name="11st" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam/11st.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="BinarySearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,24 +139,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AlgoBook/BinarySearch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="CodeUp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeUp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeUp/CodeUp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,19 +199,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.CodeUp" />
       <item itemvalue="Python.Greedy" />
       <item itemvalue="Python.NTech" />
       <item itemvalue="Python.naver" />
       <item itemvalue="Python.BinarySearch" />
+      <item itemvalue="Python.11st" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.11st" />
         <item itemvalue="Python.BinarySearch" />
         <item itemvalue="Python.naver" />
         <item itemvalue="Python.NTech" />
         <item itemvalue="Python.Greedy" />
-        <item itemvalue="Python.CodeUp" />
       </list>
     </recent_temporary>
   </component>
@@ -219,10 +229,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="440" y="0" width="1487" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10766046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
@@ -231,7 +240,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -250,13 +259,17 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AlgoBook/BinarySearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CodeUp/CodeUp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3401">
           <caret line="179" selection-start-line="179" selection-end-line="179" />
-          <folding>
-            <marker date="1600594479520" expanded="true" signature="2498:2578" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -285,9 +298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -295,9 +305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3401">
           <caret line="179" selection-start-line="179" selection-end-line="179" />
-          <folding>
-            <marker date="1600594479520" expanded="true" signature="2498:2578" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -319,9 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3401">
           <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
-          <folding>
-            <marker date="1600594479520" expanded="true" signature="2498:2578" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -336,9 +340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11381">
           <caret line="599" column="39" selection-start-line="599" selection-start-column="39" selection-end-line="599" selection-end-column="39" />
-          <folding>
-            <marker date="1600594479520" expanded="true" signature="2498:2578" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -353,9 +354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11970">
           <caret line="630" column="19" selection-start-line="596" selection-end-line="630" selection-end-column="19" />
-          <folding>
-            <marker date="1600594479520" expanded="true" signature="2498:2578" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -363,9 +361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11970">
           <caret line="630" column="19" lean-forward="true" selection-start-line="596" selection-end-line="630" selection-end-column="19" />
-          <folding>
-            <marker date="1600594479520" expanded="true" signature="2498:2578" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -373,9 +368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1273">
           <caret line="67" selection-start-line="67" selection-end-line="71" selection-end-column="8" />
-          <folding>
-            <marker date="1600594479520" expanded="true" signature="2498:2578" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -411,9 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -421,16 +410,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="821">
           <caret line="179" selection-start-line="179" selection-end-line="179" />
-          <folding>
-            <marker date="1600594479520" expanded="true" signature="2498:2578" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AlgoBook/BinarySearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="399">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/11st.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
