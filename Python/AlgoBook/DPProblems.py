@@ -51,22 +51,36 @@
 
 # 바닥공사
 
-d = [0]*1000
+# d = [0]*1000
+#
+# n = int(input())
+#
+# d[0] = 1
+# d[1] = 3
+# for i in range(2, n):
+#     d[i] = (d[i-1] + 2 * d[i-2]) % 796796
+#
+# print(d[n-1])
 
-n = int(input())
-
-d[0] = 1
-d[1] = 3
-for i in range(2, n):
-    d[i] = (d[i-1] + 2 * d[i-2]) % 796796
-
-print(d[n-1])
-
-
-
-
+# 효율적인 화폐 구성
 
 
+n,m = map(int,input().split())
+d = [10001]*(m+1)
+money = [0]*n
+for i in range(n):
+    money[i]=int(input())
+
+for i in range(n):
+    for j in range(money[i],m+1):
+        if d[j-money[i]]!=10001 :
+            d[j] = min(d[j],d[j-money[i]]+1)
+
+
+if d[m] == 10001 :
+    print(-1)
+else:
+    print(d[m])
 
 
 
