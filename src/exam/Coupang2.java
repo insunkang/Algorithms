@@ -48,6 +48,8 @@ public class Coupang2 {
 		while(time!=customerdate[customerdate.length]) {
 			
 			
+			
+			
 			time++;
 		}
 		
