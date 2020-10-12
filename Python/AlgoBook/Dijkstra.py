@@ -213,44 +213,70 @@
 #     else:
 #         print(distance[i])
 
-import sys
-input = sys.stdin.readline
+# import sys
+# input = sys.stdin.readline
+# INF = int(1e9)
+# n = int(input())
+# m = int(input())
+# graph = [[INF] * (n + 1) for _ in range(n + 1)]
+
+# for i in range(m):
+#     a, b, c = map(int, input().split())
+#     graph[a][b] = c
+
+# for i in range(1, n + 1):
+#     for j in range(1, n + 1):
+#         if i==j:
+#             graph[i][j]=0
+
+# for k in range(1, n + 1):
+#     for i in range(1, n + 1):
+#         for j in range(1, n + 1):
+#             graph[i][j] = min(graph[i][j], graph[i][k]+graph[k][j])
+
+
+# # print(graph)
+
+# for i in range(1, n + 1):
+#     for j in range(1, n + 1):
+#         if graph[i][j] == INF:
+#             if j == n:
+#                 print("INFINITY")                
+#             else:
+#                 print("INFINITY", end=" ")
+            
+#         else:
+#             if j == n:
+#                 print(graph[i][j])
+#             else:
+#                 print(graph[i][j], end=" ")
+
+n, m = map(int, input().split())
 INF = int(1e9)
-n = int(input())
-m = int(input())
 graph = [[INF] * (n + 1) for _ in range(n + 1)]
 
 for i in range(m):
-    a, b, c = map(int, input().split())
-    graph[a][b] = c
+    a, b = map(int, input().split())
+    graph[a][b] = 1
+    graph[b][a] = 1
 
+x, k = map(int, input().split())
+
+# print(graph)
+# print(x,k)
 for i in range(1, n + 1):
     for j in range(1, n + 1):
-        if i==j:
+        if i == j : 
             graph[i][j]=0
 
 for k in range(1, n + 1):
     for i in range(1, n + 1):
         for j in range(1, n + 1):
             graph[i][j] = min(graph[i][j], graph[i][k]+graph[k][j])
-
-
-# print(graph)
-
-for i in range(1, n + 1):
-    for j in range(1, n + 1):
-        if graph[i][j] == INF:
-            if j == n:
-                print("INFINITY")                
-            else:
-                print("INFINITY", end=" ")
-            
-        else:
-            if j == n:
-                print(graph[i][j])
-            else:
-                print(graph[i][j], end=" ")
-            
+if graph[1][k] + graph[k][x] >= INF :
+    print(-1)
+else:
+    print(graph[1][k] + graph[k][x])
 
 
 
