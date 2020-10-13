@@ -251,34 +251,79 @@
 #             else:
 #                 print(graph[i][j], end=" ")
 
-n, m = map(int, input().split())
+# n, m = map(int, input().split())
+# INF = int(1e9)
+# graph = [[INF] * (n + 1) for _ in range(n + 1)]
+
+# for i in range(m):
+#     a, b = map(int, input().split())
+#     graph[a][b] = 1
+#     graph[b][a] = 1
+
+# x, k = map(int, input().split())
+
+# # print(graph)
+# # print(x,k)
+# for i in range(1, n + 1):
+#     for j in range(1, n + 1):
+#         if i == j : 
+#             graph[i][j]=0
+
+# for k in range(1, n + 1):
+#     for i in range(1, n + 1):
+#         for j in range(1, n + 1):
+#             graph[i][j] = min(graph[i][j], graph[i][k]+graph[k][j])
+# if graph[1][k] + graph[k][x] >= INF :
+#     print(-1)
+# else:
+#     print(graph[1][k] + graph[k][x])
+
+# 전보
+import sys
+import heapq
+input = sys.stdin.readline
 INF = int(1e9)
-graph = [[INF] * (n + 1) for _ in range(n + 1)]
-
-for i in range(m):
-    a, b = map(int, input().split())
-    graph[a][b] = 1
-    graph[b][a] = 1
-
-x, k = map(int, input().split())
-
-# print(graph)
-# print(x,k)
-for i in range(1, n + 1):
-    for j in range(1, n + 1):
-        if i == j : 
-            graph[i][j]=0
-
-for k in range(1, n + 1):
-    for i in range(1, n + 1):
-        for j in range(1, n + 1):
-            graph[i][j] = min(graph[i][j], graph[i][k]+graph[k][j])
-if graph[1][k] + graph[k][x] >= INF :
-    print(-1)
-else:
-    print(graph[1][k] + graph[k][x])
 
 
+
+n,m,start = map(int, input().split())
+
+
+distance = [INF] * (n+1)
+graph = [[] for i in range(n+1)]
+
+
+for _ in range(m):
+    x,y,z = map(int, input().split())
+    graph[x].append((z,y))
+def dijkstra(start):
+    q = []
+
+    heapq.heappush(q,(0,start))
+
+    while q:
+        dist, node = heapq.heappop(q)
+        if distance[node] < dist:
+            continue
+
+        for i in graph[node]:
+            if distance[i[1]]>dist+i[0]:
+                distance[i[1]] = dist+i[0]
+                heapq.heappush(q, (dist+i[0],i[1]))
+
+                
+dijkstra(start)
+print(distance)
+
+ea = 0
+
+for i in range(len(distance)):
+    if distance[i] != INF:        
+        ea+=1
+    else:
+        distance[i]=0
+
+print(ea,max(distance))
 
 
 
