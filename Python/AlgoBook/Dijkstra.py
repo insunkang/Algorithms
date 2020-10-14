@@ -279,54 +279,91 @@
 #     print(graph[1][k] + graph[k][x])
 
 # 전보
-import sys
-import heapq
-input = sys.stdin.readline
-INF = int(1e9)
+# import sys
+# import heapq
+# input = sys.stdin.readline
+# INF = int(1e9)
 
 
 
-n,m,start = map(int, input().split())
+# n,m,start = map(int, input().split())
 
 
-distance = [INF] * (n+1)
-graph = [[] for i in range(n+1)]
+# distance = [INF] * (n+1)
+# graph = [[] for i in range(n+1)]
 
 
-for _ in range(m):
-    x,y,z = map(int, input().split())
-    graph[x].append((z,y))
-def dijkstra(start):
-    q = []
+# for _ in range(m):
+#     x,y,z = map(int, input().split())
+#     graph[x].append((z,y))
+# def dijkstra(start):
+#     q = []
 
-    heapq.heappush(q,(0,start))
+#     heapq.heappush(q,(0,start))
 
-    while q:
-        dist, node = heapq.heappop(q)
-        if distance[node] < dist:
-            continue
+#     while q:
+#         dist, node = heapq.heappop(q)
+#         if distance[node] < dist:
+#             continue
 
-        for i in graph[node]:
-            if distance[i[1]]>dist+i[0]:
-                distance[i[1]] = dist+i[0]
-                heapq.heappush(q, (dist+i[0],i[1]))
+#         for i in graph[node]:
+#             if distance[i[1]]>dist+i[0]:
+#                 distance[i[1]] = dist+i[0]
+#                 heapq.heappush(q, (dist+i[0],i[1]))
 
                 
-dijkstra(start)
-print(distance)
+# dijkstra(start)
+# print(distance)
 
-ea = 0
+# ea = 0
 
-for i in range(len(distance)):
-    if distance[i] != INF:        
-        ea+=1
+# for i in range(len(distance)):
+#     if distance[i] != INF:        
+#         ea+=1
+#     else:
+#         distance[i]=0
+
+# print(ea,max(distance))
+
+#  서로소 집합 (Disjoint Sets)
+import sys
+input = sys.stdin.readline
+
+n, v = map(int, input().split())
+
+parents = [ i for i in range(n+1)] 
+
+sets = []
+def findparent(parents,x):
+    if parents[x] != x:
+       return findparent(parents,parents[x])
+    return x
+
+for _ in range(v):
+    a,b = map(int, input().split())
+    sets.append((a,b))
+
+
+for i in sets:
+    a = max(i)
+    b = min(i)
+    a = findparent(parents,a)
+    b = findparent(parents,b)
+    if a>b:
+        parents[a] = b
     else:
-        distance[i]=0
+        parents[b] = a
+    
+              
+print(parents)
 
-print(ea,max(distance))
+for i in range(1, n+1):
+    print(findparent(parents,i), end=" ")
+print()
 
-
-
+for i in range(1, n+1):
+    print(parents[i], end=" ")
+print()
 
 
 
