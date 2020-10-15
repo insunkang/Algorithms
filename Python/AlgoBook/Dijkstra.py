@@ -326,6 +326,46 @@
 # print(ea,max(distance))
 
 #  서로소 집합 (Disjoint Sets)
+# import sys
+# input = sys.stdin.readline
+
+# n, v = map(int, input().split())
+
+# parents = [ i for i in range(n+1)] 
+
+# sets = []
+# def findparent(parents,x):
+#     if parents[x] != x:
+#        return findparent(parents,parents[x])
+#     return x
+
+# for _ in range(v):
+#     a,b = map(int, input().split())
+#     sets.append((a,b))
+
+
+# for i in sets:
+#     a = max(i)
+#     b = min(i)
+#     a = findparent(parents,a)
+#     b = findparent(parents,b)
+#     if a>b:
+#         parents[a] = b
+#     else:
+#         parents[b] = a
+    
+              
+# print(parents)
+
+# for i in range(1, n+1):
+#     print(findparent(parents,i), end=" ")
+# print()
+
+# for i in range(1, n+1):
+#     print(parents[i], end=" ")
+# print()
+
+#  서로소 집합 (Disjoint Sets)2
 import sys
 input = sys.stdin.readline
 
@@ -336,8 +376,8 @@ parents = [ i for i in range(n+1)]
 sets = []
 def findparent(parents,x):
     if parents[x] != x:
-       return findparent(parents,parents[x])
-    return x
+       parents[x] = findparent(parents,parents[x])
+    return parents[x]
 
 for _ in range(v):
     a,b = map(int, input().split())
@@ -364,7 +404,6 @@ print()
 for i in range(1, n+1):
     print(parents[i], end=" ")
 print()
-
 
 
 
