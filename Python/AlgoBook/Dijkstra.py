@@ -366,48 +366,82 @@
 # print()
 
 #  서로소 집합 (Disjoint Sets)2
+# import sys
+# input = sys.stdin.readline
+
+# n, v = map(int, input().split())
+
+# parents = [ i for i in range(n+1)] 
+
+# sets = []
+# def findparent(parents,x):
+#     if parents[x] != x:
+#        parents[x] = findparent(parents,parents[x])
+#     return parents[x]
+
+# for _ in range(v):
+#     a,b = map(int, input().split())
+#     sets.append((a,b))
+
+
+# for i in sets:
+#     a = max(i)
+#     b = min(i)
+#     a = findparent(parents,a)
+#     b = findparent(parents,b)
+#     if a>b:
+#         parents[a] = b
+#     else:
+#         parents[b] = a
+    
+              
+# print(parents)
+
+# for i in range(1, n+1):
+#     print(findparent(parents,i), end=" ")
+# print()
+
+# for i in range(1, n+1):
+#     print(parents[i], end=" ")
+# print()
+
+
+# 싸이클 판별
+
 import sys
 input = sys.stdin.readline
 
 n, v = map(int, input().split())
 
-parents = [ i for i in range(n+1)] 
+parents = [i for i in range(n+1)] 
 
-sets = []
 def findparent(parents,x):
     if parents[x] != x:
-       parents[x] = findparent(parents,parents[x])
-    return parents[x]
+        parents[x] = findparent(parents,parents[x])
+    else:
+        return parents[x]
+
+def union(parents,a,b):
+    a = parents[a]
+    b = parents[b]
+    if a>b:
+        parents[a]=b
+    else:
+        parents[b]=a
+
+cycle = False
 
 for _ in range(v):
     a,b = map(int, input().split())
-    sets.append((a,b))
-
-
-for i in sets:
-    a = max(i)
-    b = min(i)
-    a = findparent(parents,a)
-    b = findparent(parents,b)
-    if a>b:
-        parents[a] = b
+    if findparent(parents,a) == findparent(parents,b):
+        cycle = True
+        break
     else:
-        parents[b] = a
-    
-              
-print(parents)
-
-for i in range(1, n+1):
-    print(findparent(parents,i), end=" ")
-print()
-
-for i in range(1, n+1):
-    print(parents[i], end=" ")
-print()
-
-
-
-
+        union(parents,a,b)
+if cycle == True:
+    print("싸이클")
+else:
+    print("노싸이클")
 
 
 
