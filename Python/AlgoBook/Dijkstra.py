@@ -408,41 +408,74 @@
 
 # 싸이클 판별
 
+# import sys
+# input = sys.stdin.readline
+
+# n, v = map(int, input().split())
+
+# parents = [i for i in range(n+1)] 
+
+# def findparent(parents,x):
+#     if parents[x] != x:
+#         parents[x] = findparent(parents,parents[x])
+#     else:
+#         return parents[x]
+
+# def union(parents,a,b):
+#     a = parents[a]
+#     b = parents[b]
+#     if a>b:
+#         parents[a]=b
+#     else:
+#         parents[b]=a
+
+# cycle = False
+
+# for _ in range(v):
+#     a,b = map(int, input().split())
+#     if findparent(parents,a) == findparent(parents,b):
+#         cycle = True
+#         break
+#     else:
+#         union(parents,a,b)
+# if cycle == True:
+#     print("싸이클")
+# else:
+#     print("노싸이클")
+
 import sys
 input = sys.stdin.readline
-
-n, v = map(int, input().split())
-
-parents = [i for i in range(n+1)] 
 
 def findparent(parents,x):
     if parents[x] != x:
         parents[x] = findparent(parents,parents[x])
-    else:
-        return parents[x]
-
+    return parents[x]
 def union(parents,a,b):
-    a = parents[a]
-    b = parents[b]
-    if a>b:
+    a = findparent(parents,a)
+    b = findparent(parents,b)
+    if a>b:        
         parents[a]=b
     else:
         parents[b]=a
 
-cycle = False
+n, v = map(int, input().split())
 
+parents = [i for i in range( 1 + n)]
+
+edges = []
 for _ in range(v):
-    a,b = map(int, input().split())
-    if findparent(parents,a) == findparent(parents,b):
-        cycle = True
-        break
-    else:
-        union(parents,a,b)
-if cycle == True:
-    print("싸이클")
-else:
-    print("노싸이클")
+    a,b,cost = map(int, input().split())
+    edges.append((cost,a,b))
 
+edges.sort()
+result = 0
+for i  in edges:
+    cost, a, b = i
+    if findparent(parents,a) != findparent(parents,b):
+        union(parents,a,b)
+        result+=cost
+    
+print(result)
 
 
 
