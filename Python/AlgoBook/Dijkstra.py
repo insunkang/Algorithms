@@ -443,40 +443,78 @@
 # else:
 #     print("노싸이클")
 
-import sys
-input = sys.stdin.readline
+# kruskal algorithm
+# import sys
+# input = sys.stdin.readline
 
-def findparent(parents,x):
-    if parents[x] != x:
-        parents[x] = findparent(parents,parents[x])
-    return parents[x]
-def union(parents,a,b):
-    a = findparent(parents,a)
-    b = findparent(parents,b)
-    if a>b:        
-        parents[a]=b
-    else:
-        parents[b]=a
+# def findparent(parents,x):
+#     if parents[x] != x:
+#         parents[x] = findparent(parents,parents[x])
+#     return parents[x]
+# def union(parents,a,b):
+#     a = findparent(parents,a)
+#     b = findparent(parents,b)
+#     if a>b:        
+#         parents[a]=b
+#     else:
+#         parents[b]=a
 
-n, v = map(int, input().split())
+# n, v = map(int, input().split())
 
-parents = [i for i in range( 1 + n)]
+# parents = [i for i in range( 1 + n)]
 
-edges = []
-for _ in range(v):
-    a,b,cost = map(int, input().split())
-    edges.append((cost,a,b))
+# edges = []
+# for _ in range(v):
+#     a,b,cost = map(int, input().split())
+#     edges.append((cost,a,b))
 
-edges.sort()
-result = 0
-for i  in edges:
-    cost, a, b = i
-    if findparent(parents,a) != findparent(parents,b):
-        union(parents,a,b)
-        result+=cost
+# edges.sort()
+# result = 0
+# for i  in edges:
+#     cost, a, b = i
+#     if findparent(parents,a) != findparent(parents,b):
+#         union(parents,a,b)
+#         result+=cost
     
-print(result)
+# print(result)
+# arr = [1,2,3,4,6]
 
+# def balancedSum(arr):
+#     # Write your code here
+#     # check = 0
+#     # answer=0
+#     # for i in range(1,len(arr)-1):
+#     #     a=0
+#     #     b=0
+#     #     for j in range(0,i):
+#     #         a+=arr(j)
+            
+#     #     for j in range(i+1,len(arr)):
+#     #         b+=arr(j)
+            
+#     #     if a==b:
+#     #         answer=i
+#     #         break
+#     check = len(arr)//2
+#     answer=0
+#     # for i in range(1,len(arr)-1):
+#     #     a=sum(arr[0:i])
+#     #     print(a)
+#     #     b=sum(arr[i+1:])                
+#     #     print(b)
+#     #     if a==b:
+#     #         answer=i
+#     #         break
+#     nextch = 0
+#     # while(True):c
+#         a=sum(arr[0:i])
+#         b=sum(arr[i+1:])
+#         if a>b:
+            
+
+#     return answer
+# print("A")
+# print(balancedSum(arr))
 
 
 
