@@ -37,37 +37,70 @@
 #         result +=dist
 
 # print(result)
-from collections import deque
+# from collections import deque
+# import sys
+
+# input = sys.stdin.readline
+
+# node, vertex = map(int, input().split())
+
+# edges = [[] for i in range(node + 1)] 
+
+# nodes = [0] * (node + 1)
+
+# for _ in range(vertex):
+#     a, b = map(int, input().split())
+#     edges[a].append(b)
+#     nodes[b] +=1
+# print(edges)
+# print(nodes)
+# result = []
+# q = deque()
+# for i in range(1,node +1):
+#     if nodes[i]==0:
+#         q.append(i)
+
+# while q:
+#     check = q.popleft()
+#     result.append(check)
+#     for i in edges[check]:
+#         nodes[i]-=1
+#         if nodes[i]==0:
+#             q.append(i)
+
+
+# print(result)
+
 import sys
 
 input = sys.stdin.readline
 
-node, vertex = map(int, input().split())
+node, cal = map(int, input().split())
 
-edges = [[] for i in range(node + 1)] 
+team = [i for i in range(node+1)]
 
-nodes = [0] * (node + 1)
+def findparents(team, a):
+    if team[a] != a:
+        team[a] = findparents(team,team[a])
+    return team[a]
 
-for _ in range(vertex):
-    a, b = map(int, input().split())
-    edges[a].append(b)
-    nodes[b] +=1
-print(edges)
-print(nodes)
+def unionparent(team,a,b):
+    a = findparents(team,a)
+    b = findparents(team,b)
+
+    if a>b:
+        team[a]=b
+    else:
+        team[b]=a
 result = []
-q = deque()
-for i in range(1,node +1):
-    if nodes[i]==0:
-        q.append(i)
-
-while q:
-    check = q.popleft()
-    result.append(check)
-    for i in edges[check]:
-        nodes[i]-=1
-        if nodes[i]==0:
-            q.append(i)
-
+for _ in range(cal):
+    check, a, b = map(int,input().split())
+    if check == 0 :
+        unionparent(team,a,b)
+    else:
+        if findparents(team,a) == findparents(team,b):
+            result.append("YES")
+        else:
+            result.append("NO")
 
 print(result)
-
