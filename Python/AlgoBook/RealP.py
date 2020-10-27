@@ -22,14 +22,28 @@
 
 # multiply or plus
 
-a = input()
+# a = input()
 
-result = int(a[0])
+# result = int(a[0])
 
-for i in range(1,len(a)):
-    if a[i]==0 or a[i]==1 or result==1 or result==0:
-        result += int(a[i])
-    else:
-        result *= int(a[i])
+# for i in range(1,len(a)):
+#     if a[i]==0 or a[i]==1 or result==1 or result==0:
+#         result += int(a[i])
+#     else:
+#         result *= int(a[i])
     
+# print(result)
+
+# reverse string
+
+s = input()
+result = 0
+a= s[0]
+for i in range(1,len(s)):
+    if a!=s[i]:
+        result+=1
+        a =s[i]
+
+result = result//2
+
 print(result)
