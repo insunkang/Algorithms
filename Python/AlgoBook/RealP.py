@@ -36,14 +36,40 @@
 
 # reverse string
 
-s = input()
-result = 0
-a= s[0]
-for i in range(1,len(s)):
-    if a!=s[i]:
-        result+=1
-        a =s[i]
+# s = input()
+# result = 0
+# a= s[0]
+# for i in range(1,len(s)):
+#     if a!=s[i]:
+#         result+=1
+#         a =s[i]
 
-result = result//2
+# result = result//2
+
+# print(result)
+
+# Unavailable cost
+
+# n = int(input())
+# money = list(map(int, input().split()))
+# result = sum(money)+1
+# test = result
+# while True:
+
+
+#     result+=1
+
+# select bowling ball
+
+n,m = map(int, input().split())
+
+balls = list(map(int, input().split()))
+
+result = 0
+
+for i in range(len(balls)):
+    for j in range(i,len(balls)):
+        if balls[i]!=balls[j]:
+            result+=1
 
 print(result)
