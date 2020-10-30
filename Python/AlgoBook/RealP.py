@@ -50,26 +50,28 @@
 
 # Unavailable cost
 
-# n = int(input())
-# money = list(map(int, input().split()))
-# result = sum(money)+1
-# test = result
-# while True:
+n = int(input())
+money = list(map(int, input().split()))
+money.sort()
+target = 1
 
+for x in money:
+    if target<x:
+        break
+    target += x
 
-#     result+=1
-
+print(target)
 # select bowling ball
 
-n,m = map(int, input().split())
+# n,m = map(int, input().split())
 
-balls = list(map(int, input().split()))
+# balls = list(map(int, input().split()))
 
-result = 0
+# result = 0
 
-for i in range(len(balls)):
-    for j in range(i,len(balls)):
-        if balls[i]!=balls[j]:
-            result+=1
+# for i in range(len(balls)):
+#     for j in range(i,len(balls)):
+#         if balls[i]!=balls[j]:
+#             result+=1
 
-print(result)
+# print(result)
