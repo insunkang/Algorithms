@@ -76,25 +76,51 @@
 
 # print(result)
 
-import heapq
+# 무지의 먹방 라이브
 
-def solution(food_times, k):
-    if sum(food_times) <= k:
-        return -1
+# import heapq
+
+# def solution(food_times, k):
+#     if sum(food_times) <= k:
+#         return -1
     
-    q = []
-    for i in range(len(food_times)):
-        heapq.heappush(q,(food_times[i], i + 1))
+#     q = []
+#     for i in range(len(food_times)):
+#         heapq.heappush(q,(food_times[i], i + 1))
 
-    sum_value = 0
-    previous = 0
-    length = len(food_times)
+#     sum_value = 0
+#     previous = 0
+#     length = len(food_times)
 
-    while sum_value + ((q[0][0] - previous) * length) <= k:
-        now = heapq.heappop(q)[0]
-        sum_value += (now - previous) * length
-        length -= 1
-        previous = now
+#     while sum_value + ((q[0][0] - previous) * length) <= k:
+#         now = heapq.heappop(q)[0]
+#         sum_value += (now - previous) * length
+#         length -= 1
+#         previous = now
 
-    result = sorted(q, key = lambda x: x[1])
-    return result[(k - sum_value) % length][1]
+#     result = sorted(q, key = lambda x: x[1])
+#     return result[(k - sum_value) % length][1]
+
+# lucky straight
+
+command = str(input())
+
+length = len(command)
+
+
+
+a = command[0:length//2]
+b = command[length//2:]
+
+print(a,b)
+reA = 0 
+reB = 0
+for i in a:
+    reA += int(i)
+for i in b:
+    reB += int(i)
+
+if reA==reB:
+    print("LUCKY")
+else:
+    print("READY")
