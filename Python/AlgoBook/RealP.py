@@ -103,24 +103,55 @@
 
 # lucky straight
 
-command = str(input())
+# command = str(input())
 
-length = len(command)
+# length = len(command)
 
 
 
-a = command[0:length//2]
-b = command[length//2:]
+# a = command[0:length//2]
+# b = command[length//2:]
+
+# print(a,b)
+# reA = 0 
+# reB = 0
+# for i in a:
+#     reA += int(i)
+# for i in b:
+#     reB += int(i)
+
+# if reA==reB:
+#     print("LUCKY")
+# else:
+#     print("READY")
+
+# 문자열 재정렬
+stringSet  = str(input())
+
+result = []
+for i in stringSet:
+    result.append(i)
+
+result.sort()
+
+a = 0
+
+b = ""
+
+print(result)
+
+for i in result:
+    if ord(i)<=64:
+        a+=int(i)
+    else:
+        b+=i
 
 print(a,b)
-reA = 0 
-reB = 0
-for i in a:
-    reA += int(i)
-for i in b:
-    reB += int(i)
 
-if reA==reB:
-    print("LUCKY")
-else:
-    print("READY")
+answer = ""
+answer += b
+answer += str(a)
+
+print(answer)
+
+
