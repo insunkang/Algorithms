@@ -261,36 +261,80 @@
 # print(lotateA)
 
 # 기둥과 보 
-def possible(answer):
-    for x,y,stuff in answer:
-        if stuff == 0:
-            if y == 0 or [x-1,y,1] in answer or [x,y,1] in answer or [x,y-1,0] in answer:
-                continue
-            return False
-        elif stuff == 1:
-            if [x,y-1,0] in answer or [x+1,y-1,0] in answer or ([x-1,y,1] in answer and [x+1,y,1] in answer):
-                continue
-            return False
-        return True
+# def possible(answer):
+#     for x,y,stuff in answer:
+#         if stuff == 0:
+#             if y == 0 or [x-1,y,1] in answer or [x,y,1] in answer or [x,y-1,0] in answer:
+#                 continue
+#             return False
+#         elif stuff == 1:
+#             if [x,y-1,0] in answer or [x+1,y-1,0] in answer or ([x-1,y,1] in answer and [x+1,y,1] in answer):
+#                 continue
+#             return False
+#     return True
 
-def solution(n, build_frame):
-    answer = []
-#     [x,y,a,b] x,y 좌표, a 0 기둥 1 보, b 0삭제 1설치
-    for frame in build_frame:
-        # x=i[0]
-        # y=i[1]
-        # a=i[2]
-        # b=i[3]
-        x,y,stuff,operate = frame
-        if operate == 0:
-            answer.remove([x, y, stuff])
-            if not possible(answer):
-                answer.append([x, y, stuff])
+# def solution(n, build_frame):
+#     answer = []
+# #     [x,y,a,b] x,y 좌표, a 0 기둥 1 보, b 0삭제 1설치
+#     for frame in build_frame:
+#         # x=i[0]
+#         # y=i[1]
+#         # a=i[2]
+#         # b=i[3]
+#         x,y,stuff,operate = frame
+#         if operate == 0:
+#             answer.remove([x, y, stuff])
+#             if not possible(answer):
+#                 answer.append([x, y, stuff])
 
-        if operate == 1:
-            answer.append([x,y,stuff])
-            if not possible(answer):
-                answer.remove([x ,y ,stuff])                
-    print(sorted(answer))
+#         if operate == 1:
+#             answer.append([x,y,stuff])
+#             if not possible(answer):
+#                 answer.remove([x ,y ,stuff])                
+#     print(sorted(answer))
 
-solution(5,[[1,0,0,1],[1,1,1,1],[2,1,0,1],[2,2,1,1],[5,0,0,1],[5,1,0,1],[4,2,1,1],[3,2,1,1]])
+# solution(5,[[1,0,0,1],[1,1,1,1],[2,1,0,1],[2,2,1,1],[5,0,0,1],[5,1,0,1],[4,2,1,1],[3,2,1,1]])
+
+# 치킨 배달
+import sys
+from itertools import combinations
+
+input = sys.stdin.readline
+
+n,m = map(int, input().split())
+
+village = [[0] * n for _ in range(n)]
+chickenH = []
+house = []
+for i in range(n):
+    a = list(map(int, input().split()))
+    for j in range(len(a)):
+        if a[j] == 1:
+            house.append([i,j])
+        elif a[j] == 2:
+            chickenH.append([i,j])
+        village[i][j]=a[j]
+
+
+
+candidates = list(combinations(chickenH,m))
+
+def get_sum(candidates):
+    result = 0
+    for hx, hy in house:
+        temp =1e9
+        for cx, cy in candidates:
+            temp = min(temp,abs(hx-cx)+abs(hy-cy))
+        result += temp
+    return result
+result = 1e9
+
+for candidate in candidates:
+    result = min(result, get_sum(candidate))
+
+
+print(result)
+
+
+
+
