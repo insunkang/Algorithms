@@ -295,46 +295,72 @@
 
 # solution(5,[[1,0,0,1],[1,1,1,1],[2,1,0,1],[2,2,1,1],[5,0,0,1],[5,1,0,1],[4,2,1,1],[3,2,1,1]])
 
-# 치킨 배달
-import sys
-from itertools import combinations
+# # 치킨 배달
+# import sys
+# from itertools import combinations
 
-input = sys.stdin.readline
+# input = sys.stdin.readline
 
-n,m = map(int, input().split())
+# n,m = map(int, input().split())
 
-village = [[0] * n for _ in range(n)]
-chickenH = []
-house = []
-for i in range(n):
-    a = list(map(int, input().split()))
-    for j in range(len(a)):
-        if a[j] == 1:
-            house.append([i,j])
-        elif a[j] == 2:
-            chickenH.append([i,j])
-        village[i][j]=a[j]
-
-
-
-candidates = list(combinations(chickenH,m))
-
-def get_sum(candidates):
-    result = 0
-    for hx, hy in house:
-        temp =1e9
-        for cx, cy in candidates:
-            temp = min(temp,abs(hx-cx)+abs(hy-cy))
-        result += temp
-    return result
-result = 1e9
-
-for candidate in candidates:
-    result = min(result, get_sum(candidate))
+# village = [[0] * n for _ in range(n)]
+# chickenH = []
+# house = []
+# for i in range(n):
+#     a = list(map(int, input().split()))
+#     for j in range(len(a)):
+#         if a[j] == 1:
+#             house.append([i,j])
+#         elif a[j] == 2:
+#             chickenH.append([i,j])
+#         village[i][j]=a[j]
 
 
-print(result)
 
+# candidates = list(combinations(chickenH,m))
+
+# def get_sum(candidates):
+#     result = 0
+#     for hx, hy in house:
+#         temp =1e9
+#         for cx, cy in candidates:
+#             temp = min(temp,abs(hx-cx)+abs(hy-cy))
+#         result += temp
+#     return result
+# result = 1e9
+
+# for candidate in candidates:
+#     result = min(result, get_sum(candidate))
+
+
+# print(result)
+
+# 외벽 점검
+
+from itertools import permutations
+
+
+def solution(n, weak, dist):
+    length = len(weak)
+    for i in range(length):
+        weak.append(weak[i]+n)
+    answer = len(dist) + 1
+
+    for start in range(length):
+        for friends in list(permutations(dist,len(dist))):
+            count = 1
+            position = weak[start] + friends[count - 1]
+            for index in range(start, start+length):
+                if position < weak[index]:
+                    count += 1
+                    if count > len(dist):
+                        break
+                    position = weak[index] + friends[count - 1]
+            answer = min(answer, count)
+    if answer > len(dist):
+        return -1
+    print(answer) 
+solution(12,[1,3,4,9,10],[3,5,7])
 
 
 
