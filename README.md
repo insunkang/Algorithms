@@ -38,8 +38,8 @@
 | 42627 | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | [바로가기](./src/programmers/DiscController.java)     | Done        |
 | 49189 | [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [바로가기](./src/programmers/TheFarthestNode.java)    | Progressing |
 | 17680 | [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | [바로가기](./src/programmers/Cache.java)              | Done        |
-| 42576 | [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576?language=python3) | [바로가기](./Python/programmers/makeTheRun.py)        |             |
-|       |                                                              |                                                       |             |
+| 42576 | [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576?language=python3) | [바로가기](./Python/programmers/makeTheRun.py)        | Done        |
+| 42577 | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [바로가기](./Python/programmers/phoneNumberList.py)   |             |
 |       |                                                              |                                                       |             |
 
 
