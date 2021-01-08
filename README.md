@@ -40,7 +40,7 @@
 | 17680 | [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | [바로가기](./src/programmers/Cache.java)              | Done        |
 | 42576 | [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576?language=python3) | [바로가기](./Python/programmers/makeTheRun.py)        | Done        |
 | 42577 | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [바로가기](./Python/programmers/phoneNumberList.py)   | Done        |
-|       |                                                              |                                                       |             |
+| 42578 | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [바로가기](./Python/programmers/camouflage.py)        |             |
 
 
 ## Goorm
