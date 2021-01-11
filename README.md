@@ -42,7 +42,7 @@
 | 42577 | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [바로가기](./Python/programmers/phoneNumberList.py)   | Done        |
 | 42578 | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [바로가기](./Python/programmers/camouflage.py)        | Progressing |
 | 42584 | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [바로가기](./Python/programmers/stockPrice.py)        | Done        |
-|       |                                                              |                                                       |             |
+| 42586 | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [바로가기](./Python/programmers/developeFunction.py)  | Progressing |
 |       |                                                              |                                                       |             |
 |       |                                                              |                                                       |             |
 |       |                                                              |                                                       |             |
