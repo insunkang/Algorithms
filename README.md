@@ -45,7 +45,7 @@
 | 42586 | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [바로가기](./Python/programmers/developeFunction.py)  | Progressing |
 | 68644 | [두개뽑아서더하기](https://programmers.co.kr/learn/courses/30/lessons/68644) | [바로가기](./Python/programmers/sumTwo.py)            | Done        |
 | 42862 | [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) | [바로가기](./Python/programmers/uniform.py)           | Done        |
-|       |                                                              |                                                       |             |
+| 42748 | [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) | [바로가기](./Python/programmers/kthnumber.py)         | Done        |
 |       |                                                              |                                                       |             |
 |       |                                                              |                                                       |             |
 |       |                                                              |                                                       |             |
