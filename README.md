@@ -48,7 +48,7 @@
 | 42748 | [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) | [바로가기](./Python/programmers/kthnumber.py)         | Done        |
 | 12901 | [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901) | [바로가기](./Python/programmers/2016.py)              | Done        |
 | 68935 | [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935) | [바로가기](./Python/programmers/reversingTernary.py)  | Done        |
-|       |                                                              |                                                       |             |
+| 12903 | [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903) | [바로가기](./Python/programmers/gettingMiddle.py)     | Done        |
 |       |                                                              |                                                       |             |
 |       |                                                              |                                                       |             |
 |       |                                                              |                                                       |             |
