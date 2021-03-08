@@ -50,7 +50,7 @@
 | 68935 | [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935) | [바로가기](./Python/programmers/reversingTernary.py)  | Done        |
 | 12903 | [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903) | [바로가기](./Python/programmers/gettingMiddle.py)     | Done        |
 | 68645 | [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) | [바로가기](./Python/programmers/triangleSnail.py)     | Done        |
-|       |                                                              |                                                       |             |
+| 43105 | [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) | [바로가기](./Python/programmers/intTriangle.py)       | Done        |
 |       |                                                              |                                                       |             |
 |       |                                                              |                                                       |             |
 |       |                                                              |                                                       |             |
