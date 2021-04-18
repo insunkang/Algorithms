@@ -2,16 +2,27 @@
 
 ## Baekjoon
 
-| 이름  | 문제                                                    | 바로가기                                      | 비고        |
-| ----- | ------------------------------------------------------- | --------------------------------------------- | ----------- |
-| 2667  | [단지번호 붙이기](https://www.acmicpc.net/problem/2667) |                                               |             |
-| 2908  | [상수](https://www.acmicpc.net/problem/2908)            | [바로가기](./src/baekjoon/brotherSangsu.java) | Done        |
-| 2953  | [요리사](https://www.acmicpc.net/problem/2953)          | [바로가기](./src/baekjoon/cook.java)          | Done        |
-| 3052  | [나머지](https://www.acmicpc.net/problem/3052)          | [바로가기](./src/baekjoon/good2.java)         | Done        |
-| 14503 | [로봇 청소기](https://www.acmicpc.net/problem/14503)    | [바로가기](./src/baekjoon/Robot.java)         | Done        |
-| 14502 | [연구소](https://www.acmicpc.net/problem/14502)         | [바로가기](./src/baekjoon/Loboratory.java)    | Progressing |
-| 16234 | [인구이동](https://www.acmicpc.net/problem/16234)       | [바로가기](./src/baekjoon/Imigration.java)    | Progressing |
-| 15683 | [감시](https://www.acmicpc.net/problem/15683)           | [바로가기](./src/baekjoon/Surveillance.java)  | Progressing |
+| 이름  | 문제                                                    | 바로가기                                       | 비고        |
+| ----- | ------------------------------------------------------- | ---------------------------------------------- | ----------- |
+| 2667  | [단지번호 붙이기](https://www.acmicpc.net/problem/2667) |                                                |             |
+| 2908  | [상수](https://www.acmicpc.net/problem/2908)            | [바로가기](./src/baekjoon/brotherSangsu.java)  | Done        |
+| 2953  | [요리사](https://www.acmicpc.net/problem/2953)          | [바로가기](./src/baekjoon/cook.java)           | Done        |
+| 3052  | [나머지](https://www.acmicpc.net/problem/3052)          | [바로가기](./src/baekjoon/good2.java)          | Done        |
+| 14503 | [로봇 청소기](https://www.acmicpc.net/problem/14503)    | [바로가기](./src/baekjoon/Robot.java)          | Done        |
+| 14502 | [연구소](https://www.acmicpc.net/problem/14502)         | [바로가기](./src/baekjoon/Loboratory.java)     | Progressing |
+| 16234 | [인구이동](https://www.acmicpc.net/problem/16234)       | [바로가기](./src/baekjoon/Imigration.java)     | Progressing |
+| 15683 | [감시](https://www.acmicpc.net/problem/15683)           | [바로가기](./src/baekjoon/Surveillance.java)   | Progressing |
+| 3687  | [성냥개비](https://www.acmicpc.net/problem/3687)        | [바로가기](./Python/programmers/matchStick.py) | Progressing |
+|       |                                                         |                                                |             |
+|       |                                                         |                                                |             |
+|       |                                                         |                                                |             |
+|       |                                                         |                                                |             |
+|       |                                                         |                                                |             |
+|       |                                                         |                                                |             |
+|       |                                                         |                                                |             |
+|       |                                                         |                                                |             |
+|       |                                                         |                                                |             |
+|       |                                                         |                                                |             |
 
 ## Programmers
 
@@ -51,7 +62,7 @@
 | 12903 | [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903) | [바로가기](./Python/programmers/gettingMiddle.py)     | Done        |
 | 68645 | [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) | [바로가기](./Python/programmers/triangleSnail.py)     | Done        |
 | 43105 | [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) | [바로가기](./Python/programmers/intTriangle.py)       | Done        |
-|       |                                                              |                                                       |             |
+| 67260 | [동굴 탐험](https://programmers.co.kr/learn/courses/30/lessons/67260) | [바로가기](./Python/programmers/caveExploration.py)   | Done        |
 |       |                                                              |                                                       |             |
 |       |                                                              |                                                       |             |
 |       |                                                              |                                                       |             |
