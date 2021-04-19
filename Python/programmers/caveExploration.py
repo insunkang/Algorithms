@@ -81,6 +81,7 @@
 from collections import  deque
 def solution(n, path, order):
     q = deque()
+    
     answer = False
     visit = [0] * n
     cango = [0] * n
