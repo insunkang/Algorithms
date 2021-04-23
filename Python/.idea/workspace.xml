@@ -24,15 +24,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matchStick.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/matchStick.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="caveExploration.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programmers/caveExploration.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,8 +90,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wine.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wine.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/wine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drinkWine.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baekjoon/drinkWine.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
               <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
@@ -154,6 +154,7 @@
         <option value="$PROJECT_DIR$/baekjoon/climbingStairs.py" />
         <option value="$PROJECT_DIR$/baekjoon/makeNumberToOne.py" />
         <option value="$PROJECT_DIR$/baekjoon/wine.py" />
+        <option value="$PROJECT_DIR$/baekjoon/drinkWine.py" />
       </list>
     </option>
   </component>
@@ -365,13 +366,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exam/11st.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AlgoBook/BinarySearch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -722,6 +716,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/wine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/drinkWine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
