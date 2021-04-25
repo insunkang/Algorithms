@@ -27,15 +27,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="findDecimal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programmers/findDecimal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tuple.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/programmers/tuple.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dial.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dial.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/dial.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="croatiaAlphabet.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baekjoon/croatiaAlphabet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -156,6 +156,7 @@
         <option value="$PROJECT_DIR$/baekjoon/wine.py" />
         <option value="$PROJECT_DIR$/baekjoon/drinkWine.py" />
         <option value="$PROJECT_DIR$/baekjoon/dial.py" />
+        <option value="$PROJECT_DIR$/baekjoon/croatiaAlphabet.py" />
       </list>
     </option>
   </component>
@@ -367,13 +368,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exam/11st.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AlgoBook/BinarySearch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -727,6 +721,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/croatiaAlphabet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
