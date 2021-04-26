@@ -20,7 +20,7 @@
 | 2165     | [와인](https://www.acmicpc.net/problem/2156)                 | [바로가기](./Python/programmers/wine.py)            | Done              |
 | 28564476 | [다이얼](https://www.acmicpc.net/problem/28564476)           | [바로가기](./Python/programmers/dial.py)            | Done              |
 | 28749240 | [크로아티아 알파벳](https://www.acmicpc.net/source/28749240) | [바로가기](./Python/programmers/croatiaAlphabet.py) | Done              |
-|          |                                                              |                                                     |                   |
+| 2748     | [피보나치 수 2](https://www.acmicpc.net/problem/2748)        | [바로가기](./Python/programmers/fibonachi2.py)      | Done              |
 |          |                                                              |                                                     |                   |
 |          |                                                              |                                                     |                   |
 

@@ -27,15 +27,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tuple.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programmers/tuple.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="01tile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/01tile.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="croatiaAlphabet.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="croatiaAlphabet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/croatiaAlphabet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="19">
+              <caret line="1" column="50" lean-forward="true" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fibonachi2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baekjoon/fibonachi2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -157,6 +157,8 @@
         <option value="$PROJECT_DIR$/baekjoon/drinkWine.py" />
         <option value="$PROJECT_DIR$/baekjoon/dial.py" />
         <option value="$PROJECT_DIR$/baekjoon/croatiaAlphabet.py" />
+        <option value="$PROJECT_DIR$/baekjoon/fiponachi2.py" />
+        <option value="$PROJECT_DIR$/baekjoon/fibonachi2.py" />
       </list>
     </option>
   </component>
@@ -368,13 +370,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AlgoBook/BinarySearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeUp/CodeUp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3401">
@@ -726,8 +721,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/croatiaAlphabet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="19">
+          <caret line="1" column="50" lean-forward="true" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/fibonachi2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
