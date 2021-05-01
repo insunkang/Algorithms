@@ -22,7 +22,7 @@
 | 28749240 | [크로아티아 알파벳](https://www.acmicpc.net/source/28749240) | [바로가기](./Python/programmers/croatiaAlphabet.py) | Done              |
 | 2748     | [피보나치 수 2](https://www.acmicpc.net/problem/2748)        | [바로가기](./Python/programmers/fibonachi2.py)      | Done              |
 | 2143     | [두 배열의 합](https://www.acmicpc.net/problem/2143)         | [바로가기](./Python/programmers/sumOfTwoArray.py)   | Progressing(fail) |
-|          |                                                              |                                                     |                   |
+| 2096     | [내려가기](https://www.acmicpc.net/problem/2096)             | None                                                | Progressing(fail) |
 |          |                                                              |                                                     |                   |
 |          |                                                              |                                                     |                   |
 |          |                                                              |                                                     |                   |
