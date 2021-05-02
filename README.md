@@ -23,7 +23,7 @@
 | 2748     | [피보나치 수 2](https://www.acmicpc.net/problem/2748)        | [바로가기](./Python/programmers/fibonachi2.py)      | Done              |
 | 2143     | [두 배열의 합](https://www.acmicpc.net/problem/2143)         | [바로가기](./Python/programmers/sumOfTwoArray.py)   | Progressing(fail) |
 | 2096     | [내려가기](https://www.acmicpc.net/problem/2096)             | None                                                | Progressing(fail) |
-|          |                                                              |                                                     |                   |
+| 17825    | [주사위 윷놀이](https://www.acmicpc.net/problem/17825)       | [바로가기](./Python/programmers/17825.py)           | Progressing(fail) |
 |          |                                                              |                                                     |                   |
 |          |                                                              |                                                     |                   |
 |          |                                                              |                                                     |                   |
