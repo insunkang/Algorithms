@@ -75,7 +75,7 @@
 | 67260  | [동굴 탐험](https://programmers.co.kr/learn/courses/30/lessons/67260) | [바로가기](./Python/programmers/caveExploration.py)   | Done        |
 | 42839# | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839#) | [바로가기](./Python/programmers/findDemical.py)       | Done        |
 | 64065  | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) | [바로가기](./Python/programmers/tuple.py)             | Done        |
-|        |                                                              |                                                       |             |
+| 67257  | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | [바로가기](./Python/programmers/67257.py)             | Done        |
 |        |                                                              |                                                       |             |
 
 
