@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/exam/bitmango.py" line="157" />
+    <bookmark url="file://$PROJECT_DIR$/exam/bitmango.py" line="177" />
     <bookmark url="file://$PROJECT_DIR$/exam/2021devmatching.py" line="97" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
@@ -15,27 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sumOfTwoArray.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/sumOfTwoArray.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
-              <folding>
-                <element signature="e#789#799#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="17825.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/17825.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/game.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,14 +75,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sogangGround.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sogangGround.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/sogangGround.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="10" />
+            <state relative-caret-position="798">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20210515.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exam/20210515.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bitmango.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exam/bitmango.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -142,7 +139,6 @@
         <option value="$PROJECT_DIR$/AlgoBook/Dijkstra.py" />
         <option value="$PROJECT_DIR$/exam/Monthly.py" />
         <option value="$PROJECT_DIR$/exam/EstFam.py" />
-        <option value="$PROJECT_DIR$/exam/bitmango.py" />
         <option value="$PROJECT_DIR$/exam/naverFinancial.py" />
         <option value="$PROJECT_DIR$/exam/2021LINE.py" />
         <option value="$PROJECT_DIR$/exam/2021gabia.py" />
@@ -178,12 +174,14 @@
         <option value="$PROJECT_DIR$/exam/2021summerCoding.py" />
         <option value="$PROJECT_DIR$/baekjoon/copyString.py" />
         <option value="$PROJECT_DIR$/baekjoon/sogangGround.py" />
+        <option value="$PROJECT_DIR$/exam/bitmango.py" />
+        <option value="$PROJECT_DIR$/exam/20210515.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="1033" />
+    <option name="width" value="935" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -197,11 +195,6 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="baekjoon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
@@ -236,8 +229,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sogangGround">
-    <configuration name="2021KakaoInternship" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.20210515">
+    <configuration name="20210515" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,7 +242,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam/2021KakaoInternship.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam/20210515.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,7 +266,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="67259" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bitmango" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,11 +274,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programmers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programmers/67259.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam/bitmango.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,19 +321,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.67259" />
-      <item itemvalue="Python.2021KakaoInternship" />
       <item itemvalue="Python.2021summerCoding" />
       <item itemvalue="Python.copyString" />
       <item itemvalue="Python.sogangGround" />
+      <item itemvalue="Python.bitmango" />
+      <item itemvalue="Python.20210515" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.20210515" />
+        <item itemvalue="Python.bitmango" />
         <item itemvalue="Python.sogangGround" />
         <item itemvalue="Python.copyString" />
         <item itemvalue="Python.2021summerCoding" />
-        <item itemvalue="Python.2021KakaoInternship" />
-        <item itemvalue="Python.67259" />
       </list>
     </recent_temporary>
   </component>
@@ -358,15 +351,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="1033" y="0" width="935" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15384616" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32893288" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2860286" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36743674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32893288" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -389,13 +382,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AlgoBook/Greedy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CodeUp/CodeUp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11970">
@@ -498,13 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3401">
           <caret line="179" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exam/bitmango.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3078">
-          <caret line="162" column="20" selection-start-line="162" selection-start-column="20" selection-end-line="162" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -753,11 +732,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/sogangGround.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="10" />
+        <state relative-caret-position="798">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/bitmango.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exam/20210515.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
         </state>
       </provider>
     </entry>

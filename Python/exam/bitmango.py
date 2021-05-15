@@ -58,16 +58,17 @@
 # import copy
 # def dfs(board, x, y, n, alpha):
 #     if x <= -1 or x >=n or y <= -1 or y >= n:
-#         return False
-#     if board[x][y] !=  "0" and board[x][y]==alpha:
+#         return
+#     if board[x][y] != "0" and board[x][y] == alpha:
 #         board[x][y] = "0"
 #         dfs(board, x - 1, y, n, alpha)
 #         dfs(board, x, y - 1, n, alpha)
 #         dfs(board, x + 1, y, n, alpha)
 #         dfs(board, x, y + 1, n, alpha)
-#         return True
+#     else:
+#         return
 #
-#     return False
+#
 #
 # def solution(board):
 #     boardk = []
@@ -80,7 +81,7 @@
 #         boardk.append(sp)
 #
 #     print(boardk)
-#     answer = 0
+#
 #
 #     a = 0
 #     b = 0
@@ -114,72 +115,92 @@
 #     answer = max(a,b)
 #     print(answer)
 #     return answer
-#
+# solution(["ABBBBC","AABAAC","BCDDAC","DCCDDE","DCCEDE","DDEEEB"])
 # solution(["DDCCC","DBBBC","DBABC","DBBBC","DDCCC"])
 
-def porp(board, check, s1):
-    if check<len(board):
-        # check+=1
-        if board[check] == "p":
-            a = []
-            for _ in range(4):
-                check+=1
-                a.append(board[check])
-            s1.append(a)
-
-        else:
-            a = []
-            for _ in range(4):
-                a.append(board[check])
-            s1.append(a)
-        check += 1
-        porp(board, check, s1)
-        return True
-
-    else:
-        return False
-
-
-def solution(S1, S2):
-    answer = 0
-    s1 = []
-    s2 = []
-    i = 0
-    k = []
-
-    if S1[0] == "p":
-        i+=1
-        porp(S1,i,s1)
-
-    else:
-        a = []
-        for _ in range(4):
-            a.append(S1)
-        for _ in range(4):
-            s1.append(a)
-
-
-    i = 0
-    if S2[0] == "p":
-        i+=1
-        porp(S2,i,s2)
-
-    else:
-        a = []
-        for _ in range(4):
-            a.append(S2)
-        for _ in range(4):
-            s2.append(a)
-    print(s1)
-    print(s2)
-
-    for u in range(4):
-        for y in range(4):
-            if s1[u][y] =="b" or s2[u][y] == "b":
-                answer +=1
-
-    answer = answer * 64
-    print(answer)
-    return answer
-
-solution("b","w")
+# def porp(board, check, s1):
+#     if check<len(board):
+#         # check+=1
+#         if board[check] == "p":
+#             a = []
+#             for _ in range(4):
+#                 check+=1
+#                 a.append(board[check])
+#             s1.append(a)
+#
+#         else:
+#             a = []
+#             for _ in range(4):
+#                 a.append(board[check])
+#             s1.append(a)
+#         check += 1
+#         porp(board, check, s1)
+#         return True
+#
+#     else:
+#         return False
+# def porp(board, check, s1):
+#     if check < len(board):
+#         # check+=1
+#         if board[check] == "p":
+#             a = []
+#             for _ in range(4):
+#                 check+=1
+#                 a.append(board[check])
+#             s1.append(a)
+#
+#         else:
+#             a = []
+#             for _ in range(4):
+#                 a.append(board[check])
+#             s1.append(a)
+#         check += 1
+#         porp(board, check, s1)
+#         return
+#
+#     else:
+#         return
+#
+# def solution(S1, S2):
+#     answer = 0
+#     s1 = []
+#     s2 = []
+#     i = 0
+#
+#     if S1[0] == "p":
+#         i+=1
+#         porp(S1,i,s1)
+#
+#     else:
+#         a = []
+#         for _ in range(4):
+#             a.append(S1)
+#         for _ in range(4):
+#             s1.append(a)
+#
+#
+#     i = 0
+#     if S2[0] == "p":
+#         i+=1
+#         porp(S2,i,s2)
+#
+#     else:
+#         a = []
+#         for _ in range(4):
+#             a.append(S2)
+#         for _ in range(4):
+#             s2.append(a)
+#     print(s1)
+#     print(s2)
+#
+#     for u in range(4):
+#         for y in range(4):
+#             if s1[u][y] =="b" or s2[u][y] == "b":
+#                 answer +=1
+#
+#     answer = answer * 64
+#     print(answer)
+#     return answer
+# # solution("ppwwwbpbbwwbw","pwbwpwwbw")
+# solution("ppwwwbpbbwwbw","w")
+# solution("b","w")
