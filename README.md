@@ -25,10 +25,10 @@
 | 2096     | [내려가기](https://www.acmicpc.net/problem/2096)             | None                                                         | Progressing(fail), have to retry |
 | 17825    | [주사위 윷놀이](https://www.acmicpc.net/problem/17825)       | [바로가기](./blob/master/Python/programmers/17825.py)        | Progressing(fail), have to retry |
 | 1103     | [게임](https://www.acmicpc.net/problem/1103)                 | [바로가기](./blob/master/Python/programmers/game.py)         | Progressing(fail), have to retry |
-| 2195     | [문자열복사](https://www.acmicpc.net/problem/2195)           | [바로가기](./blob/master/Python/baekjoon/copyString.py)      | Progressing                      |
-|          |                                                              |                                                              |                                  |
-|          |                                                              |                                                              |                                  |
-|          |                                                              |                                                              |                                  |
+| 2195     | [문자열복사](https://www.acmicpc.net/problem/2195)           | [바로가기](./Python/baekjoon/copyString.py)                  | Done                             |
+| 14938    | [서강그라운드](https://www.acmicpc.net/problem/14938)        | [바로가기](./Python/baekjoon/sogangGround.py)                | Done                             |
+| 1802     | [종이접기](https://www.acmicpc.net/problem/1802)             | [바로가기](./Python/baekjoon/1802.py)                        | Done                             |
+| 7662     | [이중 우선순위 큐](https://www.acmicpc.net/problem/7662)     | [바로가기](./Python/baekjoon/7662.py)                        | Progressing(fail), have to retry |
 |          |                                                              |                                                              |                                  |
 |          |                                                              |                                                              |                                  |
 |          |                                                              |                                                              |                                  |
