@@ -29,7 +29,7 @@
 | 14938    | [서강그라운드](https://www.acmicpc.net/problem/14938)        | [바로가기](./Python/baekjoon/sogangGround.py)                | Done                             |
 | 1802     | [종이접기](https://www.acmicpc.net/problem/1802)             | [바로가기](./Python/baekjoon/1802.py)                        | Done                             |
 | 7662     | [이중 우선순위 큐](https://www.acmicpc.net/problem/7662)     | [바로가기](./Python/baekjoon/7662.py)                        | Progressing(fail), have to retry |
-|          |                                                              |                                                              |                                  |
+| 10423    | [전기가 부족해](https://www.acmicpc.net/problem/10423)       | [바로가기](./Python/baekjoon/10423.py)                       | Done                             |
 |          |                                                              |                                                              |                                  |
 |          |                                                              |                                                              |                                  |
 |          |                                                              |                                                              |                                  |
