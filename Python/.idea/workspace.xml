@@ -63,15 +63,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="copyString.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/copyString.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="10423.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/10423.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,11 +72,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="29092334.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="29092334.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/29092334.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1644.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baekjoon/1644.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -123,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/exam/NTech.py" />
         <option value="$PROJECT_DIR$/exam/naver1.py" />
         <option value="$PROJECT_DIR$/exam/naver.py" />
         <option value="$PROJECT_DIR$/AlgoBook/BinarySearch.py" />
@@ -174,6 +173,7 @@
         <option value="$PROJECT_DIR$/baekjoon/7662.py" />
         <option value="$PROJECT_DIR$/baekjoon/10423.py" />
         <option value="$PROJECT_DIR$/baekjoon/29092334.py" />
+        <option value="$PROJECT_DIR$/baekjoon/1644.py" />
       </list>
     </option>
   </component>
@@ -385,13 +385,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exam/naver1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exam/naver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
@@ -748,6 +741,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/1644.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" />
         </state>
       </provider>
     </entry>
