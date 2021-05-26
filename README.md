@@ -33,6 +33,26 @@
 | 29092334 | [윤년](https://www.acmicpc.net/problem/29092334)             | [바로가기](./Python/baekjoon/29092334.py)                    | Done                             |
 | 1644     | [소수의 연속합](https://www.acmicpc.net/problem/1644)        | [바로가기](./Python/baekjoon/1644.py)                        | Progressing(fail), have to retry |
 | 1368     | [물대기](https://www.acmicpc.net/problem/1644)               | [바로가기](./Python/baekjoon/1368.py)                        | Done, have to retry              |
+| 18312    | [시각](https://www.acmicpc.net/problem/18312)                | [바로가기](./Python/baekjoon/18312.py)                       | Done                             |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
+|          |                                                              |                                                              |                                  |
 
 ## Programmers
 
