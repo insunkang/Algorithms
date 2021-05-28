@@ -42,15 +42,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1644.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/1644.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="1368.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/1368.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3184.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3184.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/3184.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="798">
@@ -81,11 +72,20 @@
       <file leaf-file-name="3055.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/3055.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
+            <state relative-caret-position="726">
               <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10775.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baekjoon/10775.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -120,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AlgoBook/Dijkstra.py" />
         <option value="$PROJECT_DIR$/exam/Monthly.py" />
         <option value="$PROJECT_DIR$/exam/EstFam.py" />
         <option value="$PROJECT_DIR$/exam/naverFinancial.py" />
@@ -171,6 +170,7 @@
         <option value="$PROJECT_DIR$/baekjoon/10159.py" />
         <option value="$PROJECT_DIR$/baekjoon/29544212.py" />
         <option value="$PROJECT_DIR$/baekjoon/3184.py" />
+        <option value="$PROJECT_DIR$/baekjoon/10775.py" />
       </list>
     </option>
   </component>
@@ -382,13 +382,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exam/EstFam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AlgoBook/DynamicProgramming.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
@@ -731,9 +724,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/3184.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/3055.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
+        <state relative-caret-position="726">
           <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -741,10 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/3184.py">
+    <entry file="file://$PROJECT_DIR$/baekjoon/10775.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="608">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
