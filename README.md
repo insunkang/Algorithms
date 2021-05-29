@@ -36,8 +36,8 @@
 | 18312    | [시각](https://www.acmicpc.net/problem/18312)                | [바로가기](./Python/baekjoon/18312.py)                       | Done                             |
 | 3184     | [양](https://www.acmicpc.net/problem/3184)                   | [바로가기](./Python/baekjoon/3184.py)                        | Done                             |
 | 10775    | [공항](https://www.acmicpc.net/problem/10775)                | [바로가기](./Python/baekjoon/10775.py)                       | Done, have to retry              |
-|          |                                                              |                                                              |                                  |
-|          |                                                              |                                                              |                                  |
+| 11170    | [0의개수](https://www.acmicpc.net/problem/11170)             | [바로가기](./Python/baekjoon/11170.py)                       | Done                             |
+| 4386     | [별자리만들기](https://www.acmicpc.net/problem/4386)         | [바로가기](./Python/baekjoon/4386.py)                        | Done                             |
 |          |                                                              |                                                              |                                  |
 |          |                                                              |                                                              |                                  |
 |          |                                                              |                                                              |                                  |
