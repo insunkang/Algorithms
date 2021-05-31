@@ -39,8 +39,8 @@
 | 11170    | [0의개수](https://www.acmicpc.net/problem/11170)             | [바로가기](./Python/baekjoon/11170.py)                       | Done                             |
 | 4386     | [별자리만들기](https://www.acmicpc.net/problem/4386)         | [바로가기](./Python/baekjoon/4386.py)                        | Done                             |
 | 10159    | [저울](https://www.acmicpc.net/problem/10159)                | [바로가기](./Python/baekjoon/10159.py)                       | Done, have to retry              |
-|          |                                                              |                                                              |                                  |
-|          |                                                              |                                                              |                                  |
+| 12757    | [전설의 JBNU](https://www.acmicpc.net/problem/12757)         | [바로가기](./Python/baekjoon/12757.py)                       | Done                             |
+| 11085    | [군사이동](https://www.acmicpc.net/problem/11085)            | [바로가기](./Python/baekjoon/11085.py)                       | Done                             |
 |          |                                                              |                                                              |                                  |
 |          |                                                              |                                                              |                                  |
 |          |                                                              |                                                              |                                  |
