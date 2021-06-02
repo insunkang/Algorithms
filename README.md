@@ -41,9 +41,9 @@
 | 10159    | [저울](https://www.acmicpc.net/problem/10159)                | [바로가기](./Python/baekjoon/10159.py)                       | Done, have to retry              |
 | 12757    | [전설의 JBNU](https://www.acmicpc.net/problem/12757)         | [바로가기](./Python/baekjoon/12757.py)                       | Done                             |
 | 11085    | [군사이동](https://www.acmicpc.net/problem/11085)            | [바로가기](./Python/baekjoon/11085.py)                       | Done                             |
-|          |                                                              |                                                              |                                  |
-|          |                                                              |                                                              |                                  |
-|          |                                                              |                                                              |                                  |
+| 9934     | [완전이진트리](https://www.acmicpc.net/problem/9934)         | [바로가기](./Python/baekjoon/9934.py)                        | Done                             |
+| 15918    | [랭퍼든 수열쟁이야!!](https://www.acmicpc.net/problem/15918) | [바로가기](./Python/baekjoon/15918.py)                       | Progressing(fail), have to retry |
+| 9470     | [Strahler 순서](https://www.acmicpc.net/problem/9470)        | [바로가기](./Python/baekjoon/9470.py)                        | Progressing(fail), have to retry |
 |          |                                                              |                                                              |                                  |
 |          |                                                              |                                                              |                                  |
 |          |                                                              |                                                              |                                  |
